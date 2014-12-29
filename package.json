@@ -24,6 +24,8 @@
   ],
   "devDependencies": {
     "coveralls": "^2.11.1",
+    "express": "^4.8.1",
+    "express-session": "^1.7.4",
     "grunt-contrib-jshint": "^0.10.0",
     "grunt-contrib-nodeunit": "^0.3.3",
     "grunt-contrib-watch": "^0.6.1",
@@ -39,11 +41,9 @@
     "test": "grunt"
   },
   "dependencies": {
-    "express": "^4.8.1",
-    "express-session": "^1.7.4",
+    "debug": "2.x.x",
     "passport": "^0.2.0",
     "passport-strategy": "^1.0.0",
-    "wechat": "latest",
-    "debug": "latest"
+    "wechat-oauth": "^1.0.0"
   }
 }
